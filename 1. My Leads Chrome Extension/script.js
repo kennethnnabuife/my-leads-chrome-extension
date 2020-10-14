@@ -19,7 +19,7 @@ const save = () => {
 
 inputBtn.addEventListener("click", save);
 
-//Delete
+//Delete url
 const del = () => {
   localStorage.removeItem("myLeads");
   myLeads = [];
