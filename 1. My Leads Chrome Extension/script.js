@@ -7,7 +7,7 @@ let myLeads = localStorage.getItem("myLeads")
   ? JSON.parse(localStorage.getItem("myLeads"))
   : [];
 
-// Save url
+//Save url
 const save = () => {
   myLeads.push(inputEl.value);
   urlList.innerHTML = myLeads
@@ -19,7 +19,7 @@ const save = () => {
 
 inputBtn.addEventListener("click", save);
 
-// Delete
+//Delete
 const del = () => {
   localStorage.removeItem("myLeads");
   myLeads = [];
