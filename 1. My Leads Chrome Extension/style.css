@@ -49,6 +49,10 @@ a {
   font-size: 25px;
 }
 
+.hiu {
+  display: flex;
+}
+
 .link {
   display: flex;
   justify-content: center;
