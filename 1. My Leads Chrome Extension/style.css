@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #96260a;
+  margin-bottom: 4px;
+}
+
+button {
+  background: #96260a;
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
+
+#delete-btn {
+  background: white;
+  color: #96260a;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: #96260a;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  background: #96260a;
+  color: azure;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  background: #96260a;
+  color: azure;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.link a {
+  display: inline-flex;
+  background: #96260a;
+  color: azure;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
